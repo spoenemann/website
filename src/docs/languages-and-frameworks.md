@@ -1,7 +1,8 @@
 # Languages & Frameworks
 
 Below is a list of language and framework specific tips & tricks.
-
+  
+  * [JavaScript](/docs/javascript-in-gitpod)
   * [Python](/docs/python-in-gitpod/)
   * [HTML](/docs/html-in-gitpod/)
   * [Java](/docs/java-in-gitpod/)
