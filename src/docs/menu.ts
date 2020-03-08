@@ -140,6 +140,10 @@ export const MENU: MenuEntry[] = [
             M(
                 "R",
                 "r-in-gitpod"
+            ),
+            M(
+                "Kotlin",
+                "kotlin-in-gitpod"
             )
         ]
     ),
