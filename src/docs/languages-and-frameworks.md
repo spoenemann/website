@@ -13,5 +13,6 @@ Below is a list of language and framework specific tips & tricks.
   * [Vue.js](/docs/vue-in-gitpod)
   * [Rust](/docs/rust-in-gitpod/)
   * [.NET](/docs/dotnet-in-gitpod)
+  * [Dart](/docs/dart-in-gitpod)
   * [Julia](/docs/julia-in-gitpod/)
   * [R](/docs/r-in-gitpod/)
