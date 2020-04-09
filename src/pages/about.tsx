@@ -9,6 +9,7 @@ import Team from '../resources/team.png'
 import Fox from '../resources/fox.png'
 import TypeFox from '../resources/typefox.png'
 import Details from '../components/Details'
+import Quote from '../components/Quote'
 
 const StyledAboutPage = styled.div`
     /* ------------------------------------------- */
@@ -165,27 +166,6 @@ const StyledAboutPage = styled.div`
 
     }
 
-    .statement {
-        text-align: center;
-        padding: 10rem 0;
-
-        &::after {
-            display: none;
-        }
-
-
-        &__fox {
-            height: 7rem;
-            margin-left: 3rem;
-            margin-bottom: -2rem;
-        }
-
-        &__logo {
-            height: 1.5rem;
-            margin-left: -4rem;
-            margin-bottom: -2rem;
-        }
-    }
 
 `
 
@@ -248,10 +228,15 @@ const AboutPage: React.SFC<{}> = () => (
                     </section>
 
                     <h2 className="statement">
-                        It's our mission to make developers' life easier!
-                        <img alt="TypeFox Logo" src={Fox} className="statement__fox" />
-                        <img alt="TypeFox Logo" src={TypeFox} className="statement__logo"/>
+                       
                     </h2>
+
+                    <Quote 
+                        title={<>
+                        It's our mission to make developers' life easier!
+                        <img alt="TypeFox Logo" src={Fox} className="statement__fox" />&nbsp;<img alt="TypeFox Logo" src={TypeFox} className="statement__logo"/>
+                        </>}
+                    />
 
                 </div>
             </div>
